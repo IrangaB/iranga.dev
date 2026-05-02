@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://iranga.dev/</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://iranga.dev/assets/images/og-card.jpg</image:loc>
+      <image:title>Iranga Basnayake — Senior System Analyst &amp; AI Engineer</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://iranga.dev/assets/projects/vaultcast-cover.jpg</image:loc>
+      <image:title>VaultCast — privacy-first video conferencing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://iranga.dev/assets/projects/mwash-dashboard.png</image:loc>
+      <image:title>MWash — Chemical Inventory &amp; Recipe Management</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://iranga.dev/assets/projects/ilab-cover.jpg</image:loc>
+      <image:title>ILAB — Matrix Digital Lab</image:title>
+    </image:image>
+  </url>
+</urlset>
