@@ -77,7 +77,7 @@
     const submitBtn = form.querySelector('button[type="submit"]');
     const action = form.getAttribute('action') || '';
     const fallbackEmail = form.getAttribute('data-fallback-email') || 'hello@iranga.dev';
-    const isConfigured = action && !action.includes('YOUR_FORM_ID');
+    const isConfigured = action && !action.includes('YOUR_FORM_ID') && !action.includes('YOUR_ACCESS_KEY');
 
     const setStatus = (msg, type) => {
       if (!status) return;
@@ -104,6 +104,16 @@
       if (!email || !message) {
         setStatus('Please add your email and a short message.', 'error');
         return;
+      }
+
+      // Set reply-to so the inbox "Reply" button goes back to the visitor
+      const replytoField = form.querySelector('input[name="replyto"]');
+      if (replytoField) replytoField.value = email;
+
+      // Personalise the email subject with the sender's name
+      const subjectField = form.querySelector('input[name="subject"]');
+      if (subjectField && name) {
+        subjectField.value = 'iranga.dev — new enquiry from ' + name;
       }
 
       // Fallback path — open default mail client until Formspree is wired

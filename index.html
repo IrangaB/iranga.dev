@@ -1297,16 +1297,16 @@
             <p>Reply within 24 hours, usually same day. All fields optional except message.</p>
           </div>
 
-          <!--
-            FORMSPREE / WEB3FORMS SETUP:
-            1. Sign up free at https://formspree.io or https://web3forms.com
-            2. Replace the action URL below with your endpoint
-            3. Until then, the form falls back to opening the user's email client via mailto.
-          -->
+          <!-- Web3Forms: free, no-auth form endpoint. Submissions deliver to hello@iranga.dev -->
           <form class="contact-form"
-                action="https://formspree.io/f/YOUR_FORM_ID"
+                action="https://api.web3forms.com/submit"
                 method="POST"
                 data-fallback-email="hello@iranga.dev">
+            <input type="hidden" name="access_key" value="2045c20a-23de-4505-8013-516f4413069d" />
+            <input type="hidden" name="from_name" value="iranga.dev contact form" />
+            <input type="hidden" name="subject" value="New message from iranga.dev contact form" />
+            <input type="hidden" name="replyto" value="" />
+
             <div class="form-row form-row-2">
               <label class="field">
                 <span class="field-label">Name</span>
