@@ -3,11 +3,11 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://iranga.dev/</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://iranga.dev/assets/images/og-card.jpg</image:loc>
+      <image:loc>https://iranga.dev/assets/images/og-card-v2.jpg</image:loc>
       <image:title>Iranga Basnayake — Senior System Analyst &amp; AI Engineer</image:title>
     </image:image>
     <image:image>
@@ -18,6 +18,42 @@
       <image:loc>https://iranga.dev/assets/projects/mwash-dashboard.png</image:loc>
       <image:title>MWash — Chemical Inventory &amp; Recipe Management</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://iranga.dev/assets/projects/ilab-cover.jpg</image:loc>
+      <image:title>ILAB — Matrix Digital Lab</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://iranga.dev/about/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://iranga.dev/projects/vaultcast/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://iranga.dev/assets/projects/vaultcast-cover.jpg</image:loc>
+      <image:title>VaultCast — privacy-first video conferencing</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://iranga.dev/projects/mwash/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://iranga.dev/assets/projects/mwash-dashboard.png</image:loc>
+      <image:title>MWash — Chemical Inventory &amp; Recipe Management</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://iranga.dev/projects/ilab/</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <image:image>
       <image:loc>https://iranga.dev/assets/projects/ilab-cover.jpg</image:loc>
       <image:title>ILAB — Matrix Digital Lab</image:title>
